@@ -5,7 +5,22 @@
     <img src="https://github.com/q296494327/GuidePage/blob/master/page2.png" width="240">
 <div/>
  
-## 使用方法
+ 
+ 
+添加依赖
+
+```xml
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+dependencies {
+	        compile 'com.github.q296494327:GuidePage:1.0'
+	}
+```
 
 1：布局文件
 ```xml
